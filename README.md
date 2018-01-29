@@ -20,3 +20,12 @@ This repo is for
   + git checkout HEAD filename: Discards changes in the working directory
   + git reset HEAD filename: Unstages file changes in the staging area
   + git reset commit_SHA: Reset to a previous commit in your commit history
+
+## Git Branching
+Git branching allows users to experiment with different versions of a project by checking out separate branches to work on.
+The following commands are useful in the Git branch workflow.
+- git branch: Lists all Git prject's branches
+- git branch branch_name: Creates a new branch
+- git checkout branch_name: Used to switch from one branch to another
+- git merge branch_name: Used to merge changes from branch_name to current branch
+- git branch -d  branch_name: Deletes the branch specified
