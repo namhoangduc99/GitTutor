@@ -16,7 +16,7 @@ This repo is for
   + git log: shows a list of all previous commits
   
  ## Git Backtrack
- - You can use these skills to undo changes made to your Git project
+ You can use these skills to undo changes made to your Git project
   + git checkout HEAD filename: Discards changes in the working directory
   + git reset HEAD filename: Unstages file changes in the staging area
   + git reset commit_SHA: Reset to a previous commit in your commit history
