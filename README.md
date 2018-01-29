@@ -31,14 +31,14 @@ The following commands are useful in the Git branch workflow.
 - git branch -d  branch_name: Deletes the branch specified
 
 ## Git Teamwork
-A remote is a Git repository that lives outside your Git project folder. Remotes can live on the web, on a shared network or even in a seperate folder on you local computer.
-The Git Collaborative Workflow are steps that enables smooth project development when multiple collaborators are working on the same Git project.
-The following commands help to deal with remote:
-- git clone: Creates a local copy of a remote
-- git remote -v: Lists a Git project's remotes
-- git fetch: Fetches work from the remote into the local copy
-- git merge origin/master: Merges orgin/master into your local branch
-- git push origin <branch_name>: Pushes a local branch to the origin remote
+- A remote is a Git repository that lives outside your Git project folder. Remotes can live on the web, on a shared network or even in a seperate folder on you local computer.
+- The Git Collaborative Workflow are steps that enables smooth project development when multiple collaborators are working on the same Git project.
+- The following commands help to deal with remote:
+  + git clone: Creates a local copy of a remote
+  + git remote -v: Lists a Git project's remotes
+  + git fetch: Fetches work from the remote into the local copy
+  + git merge origin/master: Merges orgin/master into your local branch
+  + git push origin <branch_name>: Pushes a local branch to the origin remote
 
 ## Git Colaborative workflow
 1. Fetch and merge changes from the remote
