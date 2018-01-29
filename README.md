@@ -12,6 +12,7 @@ This repo is for
   + git add: adds files from the working directory to staging area
     git add filename1 filename2 ...: add multiple files to staging area
   + git diff: show the different between the working directory and the staging area
+  + git show commit_SHA: show what changes in a specific commit
   + git commit: permanently stores file changes from the staging area in the repository
   + git log: shows a list of all previous commits
   
