@@ -39,3 +39,12 @@ The following commands help to deal with remote:
 - git fetch: Fetches work from the remote into the local copy
 - git merge origin/master: Merges orgin/master into your local branch
 - git push origin <branch_name>: Pushes a local branch to the origin remote
+
+## Git Colaborative workflow
+1. Fetch and merge changes from the remote
+2. Create a branch to work on a new project feature
+3. Develop the feature on your branch and commit your work
+4. Fetch and merge from the remote again (in case new commits were made while you were working)
+5. Push your branch up to the remote for review
+6. Merge your branch to master
+7. Delete your feature branch
