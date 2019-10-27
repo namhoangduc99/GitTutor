@@ -9,8 +9,9 @@ This repo is for
 - Use git commands to help keep track of changes made to a project:
   + git init: creates a new Git repository
   + git status: inspects the contents of the working directory and staging area
-  + git add: adds files from the working directory to staging area
-    git add filename1 filename2 ...: add multiple files to staging area
+  + git add: adds files from the working directory to staging area, 
+    git add filename1 filename2 ...: add multiple files to staging area,
+    git add -a, git add .
   + git diff: show the different between the working directory and the staging area
   + git show commit_SHA: show what changes in a specific commit
   + git commit: permanently stores file changes from the staging area in the repository
